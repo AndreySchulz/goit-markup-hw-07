@@ -27,15 +27,16 @@
     position: relative;
 
     margin-right: 50px;
-    padding-top: 32px;
-    padding-bottom: 32px;
-
+    
     &:last-child {
             margin-right: 0px;
         }
 }
 
 .navi__link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
     color: $black-brown;
     line-height: 1.14;
     text-decoration: none;

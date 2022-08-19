@@ -66,14 +66,15 @@ p {
 .navi__item {
   position: relative;
   margin-right: 50px;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 .navi__item:last-child {
   margin-right: 0px;
 }
 
 .navi__link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: #212121;
   line-height: 1.14;
   text-decoration: none;
