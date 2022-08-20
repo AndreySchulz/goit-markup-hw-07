@@ -734,6 +734,9 @@ p {
 .work__item:nth-child(3n+3) {
   margin-right: 0px;
 }
+.work__item:nth-last-child(-n+3) {
+  margin-bottom: 0px;
+}
 
 .work__overlay {
   position: relative;
